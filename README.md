@@ -109,3 +109,20 @@ If you want to create a profile README that appears on your GitHub profile page,
 - [Adding a file to a repository](https://docs.github.com/en/github/managing-files-in-a-repository/adding-a-file-to-a-repository)
 - [5 tips for making your GitHub profile page accessible](https://github.blog/2020-09-15-make-your-github-profile-stand-out-with-pinned-repositories-and-more/)
 - [Facilitating quick creation and resumption of codespaces](https://docs.github.com/en/github/developing-online-with-github-codespaces/facilitating-quick-creation-and-resumption-of-codespaces)
+- # flutter_application_2
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+
