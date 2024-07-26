@@ -12,7 +12,6 @@ Alpha Diet is a comprehensive Flutter application designed to help you manage yo
 - **Nutrition Page**: Explore nutritional information for different food categories like Meat, Vegetables, Fruits, and Snacks.
 - **Hydration Page**: Learn about various drinks and their benefits for hydration.
 - **Suggestion Page**: Get tips on diet, exercise, wellness, and lifestyle.
-- **Q&A Page**: Ask questions and get answers about nutrition and health.
 - **Settings Page**: Customize your app experience, including dark mode and font size.
 
 ## Getting Started
@@ -54,7 +53,6 @@ lib/
 ├── nutrition_page.dart      # Nutrition page
 ├── hydration_page.dart      # Hydration page
 ├── suggestion_page.dart     # Suggestion page
-├── qanda_page.dart          # Q&A page
 └── settings_page.dart       # Settings page
 ```
 
@@ -76,7 +74,6 @@ import 'rating_page.dart';
 import 'nutrition_page.dart';
 import 'hydration_page.dart';
 import 'suggestion_page.dart';
-import 'qanda_page.dart';
 import 'settings_page.dart';
 
 void main() {
@@ -151,12 +148,6 @@ class _HomePageState extends State<HomePage> {
               title: Text('Settings'),
               onTap: () {
                 Navigator.pushNamed(context, '/settings');
-              },
-            ),
-            ListTile(
-              title: Text('About'),
-              onTap: () {
-                Navigator.pushNamed(context, '/about');
               },
             ),
             ListTile(
